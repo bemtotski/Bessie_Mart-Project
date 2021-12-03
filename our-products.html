@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        .box {
+            background:	#dcdcdc	;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        #product{
+           height: 80%;
+           width: 80%;
+        }
+        
+       .table-of-contents a.active {border-left:3px solid green !important;
+        
+        }
+    
+        .table-of-contents a:hover {border-left:3px solid green !important;
+    
+        }
+
+               
+    </style>
+    
+    <title>Products</title>
+</head>
+<body>
+ <!-- Header -->
+
+ <header class="main-header">
+    <nav class="transparent z-depth-1">
+        <div class="container">
+            <div class="nav-wrapper" >
+                <a href="#" class="brand-logo" style="color: black; font-size: 15px;
+                font-weight: bold;">
+                    <img src="img/logo.ico" alt="Bessie Mart logo">  Bessie MART   
+                   </a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="our-products.html"  class="active-link">Our Products</a>
+                    </li>
+                    <li>
+                        <a href="#login-modal" class="btn green modal-trigger">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidenav -->
+
+    <ul id="slide-out" class="sidenav">
+        <h6 class="btn center" style="background-color: #556B2F;">Bessie Mart</h6>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="our-products.html"  class="active-link">Our Products</a>
+        </li>
+        <li>
+            <a href="#login-modal" class="btn green modal-trigger">Login</a>
+        </li>
+    </ul>   
+</header> 
+
+
+<!-- Marquee -->
+
+<section class="section section-marquee">
+    <div class="primary-overlay valign-wrappper">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center">
+                    <marquee style="text-align: center;" scrollamount="10">
+                        <h3 style="color: #c46210;"><strong>Bessie MART</strong></h3>
+                        <p style="color: #354230;"><strong>"Your one-stop online shop"</strong></p>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Section-Products -->
+<section class="section section-products" >
+    <div class="container">
+        <div class="row" style="color: black;">
+            <h3 class="black-text" style="text-align: center;font-weight: bold;">Our Products</h3>
+            
+                <div class="col s12 m9">
+                    <h4 style="background: #CD853F;
+                    padding-top:5px; 
+                    padding-bottom: 5px; 
+                    text-align: center;">Fresh Produce</h4>
+                    <div class="col s12 m4">
+                        <div class="box" >
+                            <img src="img/-santol-2.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Santol</h5>
+                            <p>£10.85 per kg</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4" >
+                        <div class="box" style="padding-top: 90px;" >
+                            <img src="img/-rambutan.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Rambutan</h5>
+                            <p>£6.99 per 500g</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="box" >
+                            <img src="img/-mangosteen-1.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Mangosteen</h5>
+                            <p>£6.99 per 500g</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="box">
+                            <img src="img/-long-beans.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Long Beans</h5>
+                            <p>£2.99 per 200g</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="box">
+                            <img src="img/-lemongrass.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Lemongrass</h5>
+                            <p>£1.60 per 100g</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="box" style="padding-top: 50px;"  >
+                            <img src="img/-lanzones-3.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Lanzones</h5>
+                            <p>£6.99 per 500g</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="box" style="padding-top: 40px;" >
+                            <img src="img/-jicama-2.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Singkamas</h5>
+                            <p>£11.99 per kg</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="box">
+                            <img src="img/-banana-flower-2.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Banana Flower</h5>
+                            <p>£11.50 per kg</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 m4">
+                        <div class="box" style="padding-top: 100px;" >
+                            <img src="img/-eggplant.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Green Round Eggplant</h5>
+                            <p>£2.99 per 200g</p>
+                        </div>
+                    </div>
+                </div>
+<br><br><br><br>
+                <h6 style="text-align: center;font-weight: bold;"><i class="fas fa-info-circle" style="color: blue;"></i>  Information </h6>                
+
+                <div class="col s12 m3">
+                    <div class="card-panel center">
+                        <span class="black-text">
+                            <h5 style="color: black; font-weight: bold;"> <i class="fas fa-truck" style="color: red;"></i>  Delivery</h5>
+                            <p> DHL £5.99 up to 10kg (England and Wales only); aim to dispatch by Wednesday; delivery is within 1-2 days which includes tracking. More than 10kg, other options available.</p>     
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col s12 m3 ">
+                    <div class="card-panel">
+                        <span class="black-text">
+                            <h5 style="color: black; font-weight: bold; "> <i class="fas fa-sticky-note" style="color: burlywood;"></i>   Note</h5>
+                            <p><strong style="color:black">CUT OFF:</strong> Every Monday, 8pm (a week before arrival). Confirmation will be the the same week, Friday (few days before arrival). <br> Payment will be requested once confirmed. Orders will only be dispatched if paid Shipping fee tends to increase for a pound and so if the recipient lives in Scotland/Northern Ireland. Please check with us how much would it be.</p>  
+                        </span>
+                    </div>
+                </div> 
+                                                       
+            
+                <div class="col s12 m9">
+                    <h4 style="background: #CD853F;
+                    padding-top:5px; 
+                    padding-bottom: 5px; 
+                    text-align: center;">Dried Products</h4>
+                        <div class="col s12 m4">
+                            <div class="box" >
+                                <img src="img/=bisugo.jpg" alt="#" id="product">
+                                <h5 style="font-weight: bold;">Bisugo White</h5>
+                                <p>£6.25/100g</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="box">
+                                <img src="img/=danggit.jpg" alt="#" id="product">
+                                <h5 style="font-weight: bold;">Danggit (Unsalted)</h5>
+                                <p>£6.25/100g</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="box" >
+                                <img src="img/=tuyo.jpg" alt="#" id="product">
+                                <h5 style="font-weight: bold;">Tuyo</h5>
+                                <p>£6.75/200g</p>
+                            </div>    
+                        </div>                      
+                </div>    
+                
+                   
+                       
+                
+                <div class="col s12 m9">
+                    <h4 style="background: #CD853F;
+                    padding-top:5px; 
+                    padding-bottom: 5px; 
+                    text-align: center;">Other Products</h4>
+                    <div class="col s12 m4">
+                        <div class="box" >
+                            <img src="img/`butcheron-s.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Butcheron Spicy</h5>
+                            <p>£6.75/100g</p>
+                        </div>
+                    </div>              
+                    <div class="col s12 m4">
+                        <div class="box" style="padding-top: 40px;">
+                            <img src="img/`isawron-p.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Isawron (Plain)</h5>
+                            <p>£5.75/100g</p>
+                        </div>
+                    </div>              
+                    <div class="col s12 m4">
+                        <div class="box">
+                            <img src="img/`isawron-s.jpg" alt="#" id="product">
+                            <h5 style="font-weight: bold;">Isawron (Spicy)</h5>
+                            <p>£5.75/100g</p>
+                        </div>
+                    </div>   
+                </div>
+                
+                
+            
+           
+        </div> 
+    </div>
+</section>
+
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <h4>Account Login</h4>
+        <form>
+            <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password">
+                <label for="password">Password</label>
+            </div>
+        </form>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="modal-action modal-close btn grey">
+            <i class="fa fa-sync"> Reset Password</i>
+        </a>
+        <a href="#" class="modal-action modal-close btn green">
+            <i class="fa fa-lock"> Login</i>
+        </a>
+    </div>
+</div>
+
+    
+
+ <!-- Footer -->
+ <footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l8 center">
+                <h4 class="black-text" style="font-weight: bold;">About Us</h4>
+                <p style="color: #ffefd5;">A family run online business that currently caters to customers in the UK. At present, we offer fresh produce and other dry food products from the Southeast Asia. </p>
+                
+            </div>
+            <div class="col s12 l4">
+                <h6 class="black-text" style="font-weight: bold;">Location</h6>
+                <p style="color: #ffefd5;">Chesterfield, United Kingdom</p>
+                <h6 class="black-text" style="font-weight: bold;">Follow us at:
+                    <ul>
+                        <li>
+                            <a href="#" style="color: blue; font-size:xx-large;">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" style="color: orange; font-size: xx-large;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>   
+                    </ul>
+                </h6>
+            </div>
+       </div>
+    </div>            
+    <div class="footer-copyright center" style="color: #e6e200;">
+        <div class="container">
+            &copy; Bessie MART 2021
+        </div>
+    </div>
+</footer>    
+
+    <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.sidenav').sidenav({
+       edge: 'right'
+     });
+     // Modal init
+     $('.modal').modal();
+
+    });
+
+    
+  </script>
+
+
+</body>
+</html>

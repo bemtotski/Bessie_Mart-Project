@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        h5{
+            text-align: center; 
+            font-weight: bold;
+            color:#2f4f4f ;
+            padding-top: 30px;
+        }
+
+        
+    </style>
+
+    <title>Bessie Mart</title>
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="main-header">
+        <nav class="transparent z-depth-1">
+            <div class="container">
+                <div class="nav-wrapper" >
+                    <a href="#" class="brand-logo" style="color: black; font-size: 15px;
+                    font-weight: bold;">
+                        <img src="img/logo.ico" alt="Bessie Mart logo">  Bessie MART   
+                       </a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html" class="active-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="our-products.html">Our Products</a>
+                        </li>
+                        <li>
+                            <a href="#login-modal" class="btn green modal-trigger">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidenav -->
+
+        <ul id="slide-out" class="sidenav">
+            <h6 class="btn center" style="background-color: #556B2F ;">Bessie Mart</h6>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li>
+                <a href="index.html" class="active-link">Home</a>
+            </li>
+            <li>
+                <a href="our-products.html">Our Products</a>
+            </li>
+            <li>
+                <a href="#login-modal" class="btn green modal-trigger" >Login</a>
+            </li>
+        </ul>   
+    </header>    
+
+    <!-- Showcase -->
+    <section class="section section-showcase center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card transparent z-depth-0">
+                        <div class="card-content white-text">
+                            <span class="card-title"></span>
+                            <h5 style="line-height:150%; color: black;">Missing home? Craving for Filipino products? <br>
+                            Have it here at <h4 style="font-weight:bold;color: black;">Bessie MART!</h4></h5>
+                        </div>
+                        <div class="card-action waves-effect waves-light" style="background-color:#cd5700;" >
+                            <a href="our-products.html" style="color: #FFFF8A; font-size:200%; font-weight: bolder;"  class="active-link" >ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col s12 m7 offset-m1 center">
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="img/rambutan.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/mangosteen.jpg" alt="">                                                     
+                        </li>
+                        <li>
+                            <img src="img/jicama.jpg" alt="">  
+                        </li>
+                        <li>
+                            <img src="img/banana-flower.jpg" alt="">  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--  Section-Sign-Up-->
+<section class="section section-signup">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 center">
+                <h5>About Us</h5>
+                    <p>A family run online business that currently caters to customers in the UK. At present, we offer fresh produce and other dry food products from the Southeast Asia.</p>
+                <h5>Our Location</h5>
+                     <p>Chesterfield, United Kingdom</p>
+                <h5>Follow us at:
+                    <ul>
+                        <li>
+                            <a href="#" style="color: blue; font-size:xx-large;">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" style="color: orange; font-size: xx-large;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>   
+                    </ul>
+                </h5>
+            </div>
+
+            <div class="col s12 m6">
+                <h5>Register Here!</h5>
+                <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-4">
+                  <form>
+                    <div class="input-field">
+                      <input type="text" id="first_name">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field">
+                      <input type="text" id="last_name">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="input-field">
+                      <input type="email" id="email">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                      <input type="password" id="password">
+                      <label for="password">Password</label>
+                    </div>
+                    <div class="input-field">
+                    <input type="submit" class="btn btn-large green btn-extend" >
+                  </form>
+                </div>
+              </div>    
+        </div>
+    </div>
+</section>
+
+ <!-- Section: Testimonials -->
+ <section class="section section-testimonial" style="background: #e9ffdb;">
+    <div class="container"> 
+       
+        <div class="row">
+            <div class="col s12 center">
+                <div class="carousel">
+                    <h5>Customer's Review <i class="fas fa-comment-dots" style="color: #232b2b;"></i></h5>
+                    <div class="carousel-item">
+                        <img src="img/fb1.jpg" alt="#"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fb2.jpg" alt="#"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fb3.jpg" alt="#"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fb4.jpg" alt="#"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fb6.jpg" alt="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <h4>Account Login</h4>
+        <form>
+            <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password">
+                <label for="password">Password</label>
+            </div>
+        </form>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="modal-action modal-close btn grey">
+            <i class="fa fa-sync"> Reset Password</i>
+        </a>
+        <a href="#" class="modal-action modal-close btn green">
+            <i class="fa fa-lock"> Login</i>
+        </a>
+    </div>
+</div>
+
+    
+
+        
+        
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l8 center">
+                    <h4 class="black-text" style="font-weight:bold;">About Us</h4>
+                    <p style="color: #ffefd5;">A family run online business that currently caters to customers in the UK. At present, we offer fresh produce and other dry food products from the Southeast Asia. </p>
+                    
+                </div>
+                <div class="col s12 l4">
+                    <h6 class="black-text" style="font-weight: bold;">Location</h6>
+                    <p style="color: #ffefd5;">Chesterfield, United Kingdom</p>
+                    <h6 class="black-text" style="font-weight: bold;">Follow us at:
+                        <ul>
+                            <li>
+                                <a href="#" style="color: blue; font-size:xx-large;">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" style="color: orange; font-size: xx-large;">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>   
+                        </ul>
+                    </h6>
+                </div>
+           </div>
+        </div>            
+        <div class="footer-copyright center" style="color: #e6e200;">
+            <div class="container">
+                &copy; Bessie MART 2021
+            </div>
+        </div>
+    </footer>    
+    
+
+
+
+
+
+     <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+      $(document).ready(function(){
+          $('.sidenav').sidenav();
+          edge: 'right';
+
+          //slider init
+          $('.slider').slider({
+          indicators:false,
+          height: 350,
+          interval: 2000
+          });
+          
+          //carousel init
+          $('.carousel').carousel();
+          });
+
+           // Modal init
+     $('.modal').modal();
+
+      
+  </script>
+
+</body>
+</html>

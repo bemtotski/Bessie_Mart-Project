@@ -1,0 +1,83 @@
+.main-header {
+  background: #6B8E23;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.brand-logo img{
+  width: 25px;
+	height:25px;
+	border-radius: 50%;
+  margin-top: 5px;
+  
+  }
+
+  .active-link {
+    color: #FFFF8A;
+    font-weight: bold;
+  }
+
+
+.section-showcase{
+  background: #e9ffdb;
+  padding-bottom: 30px;
+  min-height: 500px;
+  
+}
+.section-signup{
+  background: #e9ffdb;
+  padding-bottom: 30px;
+  min-height: 500px;
+  
+}
+
+  
+
+  .card-panel {
+    background-color: #e9ffdb;
+  }
+  
+
+ .section-information{
+   background: #444c38;
+  
+ } 
+
+ .carousel-item {
+  padding-top: 20px;
+}
+
+ .page-footer{
+  background-color: #6B8E23;
+
+ }
+
+
+ 
+ .section-products {
+  color: #e9ffdb;
+ }
+
+ .section-marquee {
+    background: url(../img/heart.jpg);
+    background-size: cover;
+    min-height: 20px;
+    background-position:bottom;
+    position: relative;
+    opacity: 70%;
+
+ }
+
+ 
+ 
+
+ 
+
+  
+
+
+
+
+
+  
